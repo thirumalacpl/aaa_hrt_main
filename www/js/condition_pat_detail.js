@@ -78,7 +78,7 @@ for(a=0;a<patient_detaias_array.length;a++){
 //alert(pat_id_last+'pat_id_last');
 
 //alert('asdkjfgksdafjidkaisf');
-//alert(navigator.geolocation+'navigator.geolocation');
+alert(navigator.geolocation+'navigator.geolocation');
    navigator.geolocation.getCurrentPosition(onSuccess, onError);  
 
       function onSuccess(position) {
@@ -113,7 +113,7 @@ var long_hosp ='234';*/
         alert('code: '    + error.code    + '\n' +
               'message: ' + error.message + '\n');
     }
-
+alert('oaposd');
        function onSuccesspatid(data){
 //alert('Submitted Successfully');
 $("#myPopup1d").popup("open");
